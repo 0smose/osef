@@ -1,0 +1,68 @@
+/* déclaration de la nouvelle police */
+@font-face {
+	font-family:'nobile';
+	src: url('nobile.ttf');
+		
+}	
+/* déclaration du background */
+body
+{
+	background-image:url("marianne.jpg");
+	opacity:1;	
+}
+
+
+p, ul, h3
+{
+	color:white;
+	font-family:'nobile';
+
+	font-size:0.8em
+	
+}
+
+h1
+{
+	color:white;
+	text-align:center;
+	font-family:'nobile';
+}
+
+/*ul
+{
+	color:white;
+}*/
+
+.citations
+{
+	color:red;
+	text-align:center;
+	font-weight:bold;
+
+}
+
+.signature1, .signature2
+{
+	text-align:right;
+}
+/* bordure du bonus avec lien */
+.bonus
+{
+	border: solid red;
+	text-align:center;
+}
+/*ombre des signatures */
+.signature1
+{
+	box-shadow: 1010px 5px 2px red
+}
+
+.signature2
+{
+	box-shadow: 873px 5px 2px red
+}
+
+a:visited
+{
+	color:red;
+}
